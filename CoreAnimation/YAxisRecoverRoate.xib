@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YAxisRecoverRoate">
+            <connections>
+                <outlet property="layerView" destination="fAb-mV-BXs" id="mWv-ah-WYm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Lilya" translatesAutoresizingMaskIntoConstraints="NO" id="fAb-mV-BXs">
+                    <frame key="frameInset" minX="67" minY="260" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="9HV-sW-N8F"/>
+                        <constraint firstAttribute="height" constant="200" id="CHp-lN-kzz"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fAb-mV-BXs" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="bjx-Ct-VbL"/>
+                <constraint firstItem="fAb-mV-BXs" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iNK-Gs-TxW"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lilya" width="300" height="300"/>
+    </resources>
+</document>

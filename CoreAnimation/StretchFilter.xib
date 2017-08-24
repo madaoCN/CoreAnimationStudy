@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11201"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StretchFilter">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view1" destination="p2W-w8-WTC" id="Obu-QH-BTJ"/>
+                <outlet property="view2" destination="qJZ-aR-fhk" id="Xsm-km-Lrb"/>
+                <outlet property="view3" destination="ECf-55-eQK" id="bxx-HC-yVx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qJZ-aR-fhk">
+                    <frame key="frameInset" minX="137" minY="267" width="100" height="100"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="GAP-Jg-tFR"/>
+                        <constraint firstAttribute="height" constant="100" id="e4d-La-4HH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECf-55-eQK">
+                    <frame key="frameInset" minX="259" minY="267" width="100" height="100"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2W-w8-WTC">
+                    <frame key="frameInset" minX="16" minY="267" width="100" height="100"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ECf-55-eQK" firstAttribute="width" secondItem="qJZ-aR-fhk" secondAttribute="width" id="E6T-Uc-9I8"/>
+                <constraint firstItem="qJZ-aR-fhk" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="F2n-PW-szz"/>
+                <constraint firstItem="p2W-w8-WTC" firstAttribute="width" secondItem="qJZ-aR-fhk" secondAttribute="width" id="FJy-MB-Rk3"/>
+                <constraint firstItem="qJZ-aR-fhk" firstAttribute="leading" secondItem="p2W-w8-WTC" secondAttribute="trailing" constant="21" id="JmE-1c-F9R"/>
+                <constraint firstItem="p2W-w8-WTC" firstAttribute="centerY" secondItem="qJZ-aR-fhk" secondAttribute="centerY" id="KuY-cR-FcZ"/>
+                <constraint firstItem="ECf-55-eQK" firstAttribute="leading" secondItem="qJZ-aR-fhk" secondAttribute="trailing" constant="22" id="Wvg-t8-ahb"/>
+                <constraint firstItem="p2W-w8-WTC" firstAttribute="height" secondItem="qJZ-aR-fhk" secondAttribute="height" id="Yk7-fE-yOu"/>
+                <constraint firstItem="p2W-w8-WTC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="blT-d5-lWf"/>
+                <constraint firstAttribute="trailing" secondItem="ECf-55-eQK" secondAttribute="trailing" constant="16" id="cCJ-2F-mQx"/>
+                <constraint firstItem="qJZ-aR-fhk" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jJe-iZ-jYq"/>
+                <constraint firstItem="ECf-55-eQK" firstAttribute="height" secondItem="qJZ-aR-fhk" secondAttribute="height" id="pqK-qH-GnC"/>
+                <constraint firstItem="ECf-55-eQK" firstAttribute="centerY" secondItem="qJZ-aR-fhk" secondAttribute="centerY" id="z27-vs-vjl"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

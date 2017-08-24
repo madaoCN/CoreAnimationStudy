@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MirrorSight">
+            <connections>
+                <outlet property="bothSideToggle" destination="sbp-u9-zNF" id="g1f-et-qDA"/>
+                <outlet property="layerView" destination="Xwc-Yw-RoM" id="jvq-Wr-wEA"/>
+                <outlet property="notifyLabel" destination="EbX-Yg-j0G" id="arK-1v-d6O"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Lilya" translatesAutoresizingMaskIntoConstraints="NO" id="Xwc-Yw-RoM">
+                    <frame key="frameInset" minX="87" minY="237" width="220" height="193"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="7jV-Za-KGM"/>
+                        <constraint firstAttribute="width" constant="200" id="gho-44-sex"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="doubleSided:YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbX-Yg-j0G">
+                    <frame key="frameInset" minX="147" minY="482" width="101" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="5ex-UO-pu9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbp-u9-zNF">
+                    <frame key="frameInset" minX="173" minY="539" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EbX-Yg-j0G" firstAttribute="top" secondItem="Xwc-Yw-RoM" secondAttribute="bottom" constant="52" id="0ee-IQ-gFG"/>
+                <constraint firstItem="Xwc-Yw-RoM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="BKh-hd-B1B"/>
+                <constraint firstItem="EbX-Yg-j0G" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Kwe-ii-fxb"/>
+                <constraint firstItem="EbX-Yg-j0G" firstAttribute="centerX" secondItem="sbp-u9-zNF" secondAttribute="centerX" id="Ri6-t2-OBr"/>
+                <constraint firstItem="EbX-Yg-j0G" firstAttribute="centerX" secondItem="Xwc-Yw-RoM" secondAttribute="centerX" id="ZTT-Xu-ajV"/>
+                <constraint firstItem="sbp-u9-zNF" firstAttribute="top" secondItem="EbX-Yg-j0G" secondAttribute="bottom" constant="43" id="gVi-vF-6gV"/>
+                <constraint firstItem="Xwc-Yw-RoM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="v4M-ka-pL9"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Lilya" width="300" height="300"/>
+    </resources>
+</document>
