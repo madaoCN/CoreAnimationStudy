@@ -45,6 +45,18 @@
 		512F2F111F4DC7A1001DA43E /* ReplicatorLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F0F1F4DC7A1001DA43E /* ReplicatorLayer.xib */; };
 		512F2F1A1F4DC93A001DA43E /* Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F181F4DC93A001DA43E /* Reflection.m */; };
 		512F2F1B1F4DC93A001DA43E /* Reflection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F191F4DC93A001DA43E /* Reflection.xib */; };
+		514404B91F4FCEC600E166DA /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404B71F4FCEC600E166DA /* ScrollLayer.m */; };
+		514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404B81F4FCEC600E166DA /* ScrollLayer.xib */; };
+		514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404BC1F4FCF0900E166DA /* LayerTextLabel.m */; };
+		514404BF1F4FCF0900E166DA /* LayerTextLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404BD1F4FCF0900E166DA /* LayerTextLabel.xib */; };
+		514404C31F4FE3B500E166DA /* TiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404C11F4FE3B500E166DA /* TiledLayer.m */; };
+		514404C41F4FE3B500E166DA /* TiledLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404C21F4FE3B500E166DA /* TiledLayer.xib */; };
+		514404C81F4FE60000E166DA /* EmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404C61F4FE60000E166DA /* EmitterLayer.m */; };
+		514404C91F4FE60000E166DA /* EmitterLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404C71F4FE60000E166DA /* EmitterLayer.xib */; };
+		514404CD1F4FEA4D00E166DA /* EAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404CB1F4FEA4D00E166DA /* EAGLLayer.m */; };
+		514404CE1F4FEA4D00E166DA /* EAGLLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404CC1F4FEA4D00E166DA /* EAGLLayer.xib */; };
+		514404D21F4FED6300E166DA /* PlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404D01F4FED6300E166DA /* PlayerLayer.m */; };
+		514404D31F4FED6300E166DA /* PlayerLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404D11F4FED6300E166DA /* PlayerLayer.xib */; };
 		5178CB5B1F49C89A0049FE2C /* ContentsCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5178CB591F49C89A0049FE2C /* ContentsCenter.m */; };
 		5178CB5C1F49C89A0049FE2C /* ContentsCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5178CB5A1F49C89A0049FE2C /* ContentsCenter.xib */; };
 		5178CB5F1F49CBA00049FE2C /* CustomDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5178CB5E1F49CBA00049FE2C /* CustomDrawing.m */; };
@@ -140,6 +152,24 @@
 		512F2F171F4DC93A001DA43E /* Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reflection.h; sourceTree = "<group>"; };
 		512F2F181F4DC93A001DA43E /* Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reflection.m; sourceTree = "<group>"; };
 		512F2F191F4DC93A001DA43E /* Reflection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Reflection.xib; sourceTree = "<group>"; };
+		514404B61F4FCEC600E166DA /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
+		514404B71F4FCEC600E166DA /* ScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
+		514404B81F4FCEC600E166DA /* ScrollLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollLayer.xib; sourceTree = "<group>"; };
+		514404BB1F4FCF0900E166DA /* LayerTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTextLabel.h; sourceTree = "<group>"; };
+		514404BC1F4FCF0900E166DA /* LayerTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTextLabel.m; sourceTree = "<group>"; };
+		514404BD1F4FCF0900E166DA /* LayerTextLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTextLabel.xib; sourceTree = "<group>"; };
+		514404C01F4FE3B500E166DA /* TiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledLayer.h; sourceTree = "<group>"; };
+		514404C11F4FE3B500E166DA /* TiledLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledLayer.m; sourceTree = "<group>"; };
+		514404C21F4FE3B500E166DA /* TiledLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiledLayer.xib; sourceTree = "<group>"; };
+		514404C51F4FE60000E166DA /* EmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayer.h; sourceTree = "<group>"; };
+		514404C61F4FE60000E166DA /* EmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayer.m; sourceTree = "<group>"; };
+		514404C71F4FE60000E166DA /* EmitterLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmitterLayer.xib; sourceTree = "<group>"; };
+		514404CA1F4FEA4D00E166DA /* EAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLLayer.h; sourceTree = "<group>"; };
+		514404CB1F4FEA4D00E166DA /* EAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLLayer.m; sourceTree = "<group>"; };
+		514404CC1F4FEA4D00E166DA /* EAGLLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EAGLLayer.xib; sourceTree = "<group>"; };
+		514404CF1F4FED6300E166DA /* PlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLayer.h; sourceTree = "<group>"; };
+		514404D01F4FED6300E166DA /* PlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayer.m; sourceTree = "<group>"; };
+		514404D11F4FED6300E166DA /* PlayerLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerLayer.xib; sourceTree = "<group>"; };
 		5178CB581F49C89A0049FE2C /* ContentsCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsCenter.h; sourceTree = "<group>"; };
 		5178CB591F49C89A0049FE2C /* ContentsCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsCenter.m; sourceTree = "<group>"; };
 		5178CB5A1F49C89A0049FE2C /* ContentsCenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentsCenter.xib; sourceTree = "<group>"; };
@@ -214,6 +244,7 @@
 		512812151F3F49500088380C = {
 			isa = PBXGroup;
 			children = (
+				514404D91F4FF75A00E166DA /* Chapter8 */,
 				512F2EEE1F4DB12C001DA43E /* Chapter7 */,
 				5178CB861F4B26BB0049FE2C /* Chapter6 */,
 				5178CB6C1F49D5660049FE2C /* Chapter5 */,
@@ -307,8 +338,33 @@
 				512F2F171F4DC93A001DA43E /* Reflection.h */,
 				512F2F181F4DC93A001DA43E /* Reflection.m */,
 				512F2F191F4DC93A001DA43E /* Reflection.xib */,
+				514404B61F4FCEC600E166DA /* ScrollLayer.h */,
+				514404B71F4FCEC600E166DA /* ScrollLayer.m */,
+				514404B81F4FCEC600E166DA /* ScrollLayer.xib */,
+				514404BB1F4FCF0900E166DA /* LayerTextLabel.h */,
+				514404BC1F4FCF0900E166DA /* LayerTextLabel.m */,
+				514404BD1F4FCF0900E166DA /* LayerTextLabel.xib */,
+				514404C01F4FE3B500E166DA /* TiledLayer.h */,
+				514404C11F4FE3B500E166DA /* TiledLayer.m */,
+				514404C21F4FE3B500E166DA /* TiledLayer.xib */,
+				514404C51F4FE60000E166DA /* EmitterLayer.h */,
+				514404C61F4FE60000E166DA /* EmitterLayer.m */,
+				514404C71F4FE60000E166DA /* EmitterLayer.xib */,
+				514404CA1F4FEA4D00E166DA /* EAGLLayer.h */,
+				514404CB1F4FEA4D00E166DA /* EAGLLayer.m */,
+				514404CC1F4FEA4D00E166DA /* EAGLLayer.xib */,
+				514404CF1F4FED6300E166DA /* PlayerLayer.h */,
+				514404D01F4FED6300E166DA /* PlayerLayer.m */,
+				514404D11F4FED6300E166DA /* PlayerLayer.xib */,
 			);
 			name = Chapter7;
+			sourceTree = "<group>";
+		};
+		514404D91F4FF75A00E166DA /* Chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chapter8;
 			sourceTree = "<group>";
 		};
 		5178CB6A1F49D5130049FE2C /* Chapter3 */ = {
@@ -481,14 +537,20 @@
 				512812311F3F49500088380C /* LaunchScreen.storyboard in Resources */,
 				512F2EFD1F4DB301001DA43E /* TextLayer.xib in Resources */,
 				5178CB711F49D59C0049FE2C /* ShadowPath.xib in Resources */,
+				514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */,
 				512F2F071F4DBEC5001DA43E /* TransformLayer.xib in Resources */,
+				514404C41F4FE3B500E166DA /* TiledLayer.xib in Resources */,
 				5128122E1F3F49500088380C /* Assets.xcassets in Resources */,
 				512F2F1B1F4DC93A001DA43E /* Reflection.xib in Resources */,
+				514404BF1F4FCF0900E166DA /* LayerTextLabel.xib in Resources */,
 				512F2EDE1F4B2CC0001DA43E /* ThreeDAffineTranform.xib in Resources */,
 				5178CB851F4B1E680049FE2C /* GroupOpacity.xib in Resources */,
+				514404D31F4FED6300E166DA /* PlayerLayer.xib in Resources */,
 				512F2EE81F4C6F67001DA43E /* YAxisRecoverRoate.xib in Resources */,
+				514404C91F4FE60000E166DA /* EmitterLayer.xib in Resources */,
 				5128122C1F3F49500088380C /* Main.storyboard in Resources */,
 				5104D6041F4737D200C47973 /* ContentsRect.xib in Resources */,
+				514404CE1F4FEA4D00E166DA /* EAGLLayer.xib in Resources */,
 				5178CB691F49D3880049FE2C /* HitTesting.xib in Resources */,
 				512F2EED1F4C7228001DA43E /* SoildCube.xib in Resources */,
 				512F2ED91F4B2BDA001DA43E /* CombineAffineTransform.xib in Resources */,
@@ -528,6 +590,7 @@
 				5178CB7F1F4B18D20049FE2C /* StretchFilter.m in Sources */,
 				512F2EE21F4C6BEE001DA43E /* MirrorSight.m in Sources */,
 				5104D6031F4737D200C47973 /* ContentsRect.m in Sources */,
+				514404C81F4FE60000E166DA /* EmitterLayer.m in Sources */,
 				512F2F101F4DC7A1001DA43E /* ReplicatorLayer.m in Sources */,
 				5104D5F81F47317100C47973 /* LayerTest.m in Sources */,
 				5178CB841F4B1E680049FE2C /* GroupOpacity.m in Sources */,
@@ -541,15 +604,20 @@
 				512812261F3F49500088380C /* AppDelegate.m in Sources */,
 				512F2F0B1F4DC06D001DA43E /* GradientLayer.m in Sources */,
 				512F2ED81F4B2BDA001DA43E /* CombineAffineTransform.m in Sources */,
+				514404D21F4FED6300E166DA /* PlayerLayer.m in Sources */,
 				512812231F3F49500088380C /* main.m in Sources */,
 				5178CB5B1F49C89A0049FE2C /* ContentsCenter.m in Sources */,
 				512F2EDD1F4B2CC0001DA43E /* ThreeDAffineTranform.m in Sources */,
+				514404C31F4FE3B500E166DA /* TiledLayer.m in Sources */,
 				5178CB701F49D59C0049FE2C /* ShadowPath.m in Sources */,
 				512F2EEC1F4C7228001DA43E /* SoildCube.m in Sources */,
+				514404CD1F4FEA4D00E166DA /* EAGLLayer.m in Sources */,
 				512F2F061F4DBEC5001DA43E /* TransformLayer.m in Sources */,
 				5104D5FC1F47340E00C47973 /* Contents.m in Sources */,
 				512F2EF21F4DB15B001DA43E /* ShapeLayer.m in Sources */,
+				514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */,
 				512F2EF71F4DB25B001DA43E /* RoundCornerLayer.m in Sources */,
+				514404B91F4FCEC600E166DA /* ScrollLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

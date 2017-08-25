@@ -21,7 +21,7 @@
     //define path parameters
     CGRect rect = CGRectMake(100, 100, 100, 100);
     CGSize radii = CGSizeMake(20, 20);
-    UIRectCorner corners = UIRectCornerTopRight | UIRectCornerBottomRight | UIRectCornerBottomLeft; //create path
+    UIRectCorner corners = UIRectCornerBottomRight | UIRectCornerBottomLeft; //create path
     UIBezierPath *cornerPath = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:corners cornerRadii:radii];
     
     

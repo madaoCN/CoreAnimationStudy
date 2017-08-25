@@ -10,6 +10,7 @@
 
 @interface ReflectionView : UIImageView
 
+
 @end
 @implementation ReflectionView
 
@@ -31,6 +32,15 @@
     layer.instanceTransform = transform;
     //reduce alpha of reflection layer
     layer.instanceAlphaOffset = -0.6;
+    
+    UIImage *image = [UIImage imageNamed:@"Lilya"];
+
+    CALayer *ly = [CALayer layer];
+    ly.frame = layer.bounds;
+    ly.contents = (__bridge id)image.CGImage;
+    ly.contentsGravity = kCAGravityResizeAspectFill;
+    ly.contentsScale = image.scale;
+    [layer addSublayer:ly];
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -47,6 +57,8 @@
 
 @interface Reflection ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *containerView;
+
 @end
 
 @implementation Reflection
@@ -57,8 +69,21 @@
     // Do any additional setup after loading the view from its nib.
     
     ReflectionView *view = [[ReflectionView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
-    view.image = [UIImage imageNamed:@"Lilya"];
-    [self.view addSubview:view.layer];
+    [self.view addSubview:view];
+    
+//    CAReplicatorLayer *layer = [CAReplicatorLayer layer];
+//    layer.instanceCount = 2;
+//    //move reflection instance below original and flip vertically
+//    CATransform3D transform = CATransform3DIdentity;
+//    CGFloat verticalOffset = self.containerView.bounds.size.height + 2;
+//    transform = CATransform3DTranslate(transform, 0, verticalOffset, 0);
+//    transform = CATransform3DScale(transform, 1, -1, 0);
+//    layer.instanceTransform = transform;
+//    //reduce alpha of reflection layer
+//    layer.instanceAlphaOffset = -0.6;
+//    [self.containerView.layer addSublayer:layer];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

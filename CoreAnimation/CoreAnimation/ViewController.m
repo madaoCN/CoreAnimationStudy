@@ -53,11 +53,17 @@
                     @[@"ShapeLayer",
                       @"RoundCornerLayer",
                       @"TextLayer",
+                      @"LayerTextLabel",
                       @"RichTextLayer",
                       @"TransformLayer",
                       @"GradientLayer",
                       @"ReplicatorLayer",
-                      @"Reflection"
+                      @"Reflection",
+                      @"ScrollLayer",
+                      @"TiledLayer",
+                      @"EmitterLayer",
+                      @"EAGLLayer",
+                      @"PlayerLayer"
                       ]
                     
                     ];
