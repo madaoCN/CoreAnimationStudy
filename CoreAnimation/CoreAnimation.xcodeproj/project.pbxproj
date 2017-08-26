@@ -45,6 +45,18 @@
 		512F2F111F4DC7A1001DA43E /* ReplicatorLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F0F1F4DC7A1001DA43E /* ReplicatorLayer.xib */; };
 		512F2F1A1F4DC93A001DA43E /* Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F181F4DC93A001DA43E /* Reflection.m */; };
 		512F2F1B1F4DC93A001DA43E /* Reflection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F191F4DC93A001DA43E /* Reflection.xib */; };
+		512F2F1F1F51A011001DA43E /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F1D1F51A011001DA43E /* Transaction.m */; };
+		512F2F201F51A011001DA43E /* Transaction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F1E1F51A011001DA43E /* Transaction.xib */; };
+		512F2F241F51A891001DA43E /* AnimationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F221F51A891001DA43E /* AnimationDelegate.m */; };
+		512F2F251F51A891001DA43E /* AnimationDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F231F51A891001DA43E /* AnimationDelegate.xib */; };
+		512F2F291F51AB5B001DA43E /* KeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F271F51AB5B001DA43E /* KeyframeAnimation.m */; };
+		512F2F2A1F51AB5B001DA43E /* KeyframeAnimation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F281F51AB5B001DA43E /* KeyframeAnimation.xib */; };
+		512F2F2E1F51ACF7001DA43E /* KeyframeAnimationWithPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F2C1F51ACF7001DA43E /* KeyframeAnimationWithPath.m */; };
+		512F2F2F1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F2D1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib */; };
+		512F2F331F51B219001DA43E /* AnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F311F51B219001DA43E /* AnimationGroup.m */; };
+		512F2F341F51B219001DA43E /* AnimationGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F321F51B219001DA43E /* AnimationGroup.xib */; };
+		512F2F381F51B4E7001DA43E /* LayerRelationTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F361F51B4E7001DA43E /* LayerRelationTime.m */; };
+		512F2F391F51B4E7001DA43E /* LayerRelationTime.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */; };
 		514404B91F4FCEC600E166DA /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404B71F4FCEC600E166DA /* ScrollLayer.m */; };
 		514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404B81F4FCEC600E166DA /* ScrollLayer.xib */; };
 		514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404BC1F4FCF0900E166DA /* LayerTextLabel.m */; };
@@ -152,6 +164,24 @@
 		512F2F171F4DC93A001DA43E /* Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reflection.h; sourceTree = "<group>"; };
 		512F2F181F4DC93A001DA43E /* Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reflection.m; sourceTree = "<group>"; };
 		512F2F191F4DC93A001DA43E /* Reflection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Reflection.xib; sourceTree = "<group>"; };
+		512F2F1C1F51A011001DA43E /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		512F2F1D1F51A011001DA43E /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		512F2F1E1F51A011001DA43E /* Transaction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Transaction.xib; sourceTree = "<group>"; };
+		512F2F211F51A891001DA43E /* AnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDelegate.h; sourceTree = "<group>"; };
+		512F2F221F51A891001DA43E /* AnimationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDelegate.m; sourceTree = "<group>"; };
+		512F2F231F51A891001DA43E /* AnimationDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationDelegate.xib; sourceTree = "<group>"; };
+		512F2F261F51AB5B001DA43E /* KeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeAnimation.h; sourceTree = "<group>"; };
+		512F2F271F51AB5B001DA43E /* KeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeAnimation.m; sourceTree = "<group>"; };
+		512F2F281F51AB5B001DA43E /* KeyframeAnimation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyframeAnimation.xib; sourceTree = "<group>"; };
+		512F2F2B1F51ACF7001DA43E /* KeyframeAnimationWithPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeAnimationWithPath.h; sourceTree = "<group>"; };
+		512F2F2C1F51ACF7001DA43E /* KeyframeAnimationWithPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeAnimationWithPath.m; sourceTree = "<group>"; };
+		512F2F2D1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyframeAnimationWithPath.xib; sourceTree = "<group>"; };
+		512F2F301F51B219001DA43E /* AnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationGroup.h; sourceTree = "<group>"; };
+		512F2F311F51B219001DA43E /* AnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationGroup.m; sourceTree = "<group>"; };
+		512F2F321F51B219001DA43E /* AnimationGroup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationGroup.xib; sourceTree = "<group>"; };
+		512F2F351F51B4E7001DA43E /* LayerRelationTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerRelationTime.h; sourceTree = "<group>"; };
+		512F2F361F51B4E7001DA43E /* LayerRelationTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerRelationTime.m; sourceTree = "<group>"; };
+		512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerRelationTime.xib; sourceTree = "<group>"; };
 		514404B61F4FCEC600E166DA /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
 		514404B71F4FCEC600E166DA /* ScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
 		514404B81F4FCEC600E166DA /* ScrollLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollLayer.xib; sourceTree = "<group>"; };
@@ -363,6 +393,24 @@
 		514404D91F4FF75A00E166DA /* Chapter8 */ = {
 			isa = PBXGroup;
 			children = (
+				512F2F1C1F51A011001DA43E /* Transaction.h */,
+				512F2F1D1F51A011001DA43E /* Transaction.m */,
+				512F2F1E1F51A011001DA43E /* Transaction.xib */,
+				512F2F211F51A891001DA43E /* AnimationDelegate.h */,
+				512F2F221F51A891001DA43E /* AnimationDelegate.m */,
+				512F2F231F51A891001DA43E /* AnimationDelegate.xib */,
+				512F2F261F51AB5B001DA43E /* KeyframeAnimation.h */,
+				512F2F271F51AB5B001DA43E /* KeyframeAnimation.m */,
+				512F2F281F51AB5B001DA43E /* KeyframeAnimation.xib */,
+				512F2F2B1F51ACF7001DA43E /* KeyframeAnimationWithPath.h */,
+				512F2F2C1F51ACF7001DA43E /* KeyframeAnimationWithPath.m */,
+				512F2F2D1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib */,
+				512F2F301F51B219001DA43E /* AnimationGroup.h */,
+				512F2F311F51B219001DA43E /* AnimationGroup.m */,
+				512F2F321F51B219001DA43E /* AnimationGroup.xib */,
+				512F2F351F51B4E7001DA43E /* LayerRelationTime.h */,
+				512F2F361F51B4E7001DA43E /* LayerRelationTime.m */,
+				512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */,
 			);
 			name = Chapter8;
 			sourceTree = "<group>";
@@ -539,6 +587,8 @@
 				5178CB711F49D59C0049FE2C /* ShadowPath.xib in Resources */,
 				514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */,
 				512F2F071F4DBEC5001DA43E /* TransformLayer.xib in Resources */,
+				512F2F201F51A011001DA43E /* Transaction.xib in Resources */,
+				512F2F391F51B4E7001DA43E /* LayerRelationTime.xib in Resources */,
 				514404C41F4FE3B500E166DA /* TiledLayer.xib in Resources */,
 				5128122E1F3F49500088380C /* Assets.xcassets in Resources */,
 				512F2F1B1F4DC93A001DA43E /* Reflection.xib in Resources */,
@@ -550,6 +600,7 @@
 				514404C91F4FE60000E166DA /* EmitterLayer.xib in Resources */,
 				5128122C1F3F49500088380C /* Main.storyboard in Resources */,
 				5104D6041F4737D200C47973 /* ContentsRect.xib in Resources */,
+				512F2F341F51B219001DA43E /* AnimationGroup.xib in Resources */,
 				514404CE1F4FEA4D00E166DA /* EAGLLayer.xib in Resources */,
 				5178CB691F49D3880049FE2C /* HitTesting.xib in Resources */,
 				512F2EED1F4C7228001DA43E /* SoildCube.xib in Resources */,
@@ -557,6 +608,9 @@
 				5178CB5C1F49C89A0049FE2C /* ContentsCenter.xib in Resources */,
 				512F2F021F4DB4D9001DA43E /* RichTextLayer.xib in Resources */,
 				5178CB761F49DA890049FE2C /* MaskLayer.xib in Resources */,
+				512F2F251F51A891001DA43E /* AnimationDelegate.xib in Resources */,
+				512F2F2A1F51AB5B001DA43E /* KeyframeAnimation.xib in Resources */,
+				512F2F2F1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib in Resources */,
 				512F2EF31F4DB15B001DA43E /* ShapeLayer.xib in Resources */,
 				5178CB801F4B18D20049FE2C /* StretchFilter.xib in Resources */,
 				512F2EE31F4C6BEE001DA43E /* MirrorSight.xib in Resources */,
@@ -590,8 +644,10 @@
 				5178CB7F1F4B18D20049FE2C /* StretchFilter.m in Sources */,
 				512F2EE21F4C6BEE001DA43E /* MirrorSight.m in Sources */,
 				5104D6031F4737D200C47973 /* ContentsRect.m in Sources */,
+				512F2F291F51AB5B001DA43E /* KeyframeAnimation.m in Sources */,
 				514404C81F4FE60000E166DA /* EmitterLayer.m in Sources */,
 				512F2F101F4DC7A1001DA43E /* ReplicatorLayer.m in Sources */,
+				512F2F2E1F51ACF7001DA43E /* KeyframeAnimationWithPath.m in Sources */,
 				5104D5F81F47317100C47973 /* LayerTest.m in Sources */,
 				5178CB841F4B1E680049FE2C /* GroupOpacity.m in Sources */,
 				512F2F011F4DB4D9001DA43E /* RichTextLayer.m in Sources */,
@@ -600,10 +656,12 @@
 				512F2F1A1F4DC93A001DA43E /* Reflection.m in Sources */,
 				512F2EE71F4C6F67001DA43E /* YAxisRecoverRoate.m in Sources */,
 				5178CB681F49D3880049FE2C /* HitTesting.m in Sources */,
+				512F2F381F51B4E7001DA43E /* LayerRelationTime.m in Sources */,
 				5178CB5F1F49CBA00049FE2C /* CustomDrawing.m in Sources */,
 				512812261F3F49500088380C /* AppDelegate.m in Sources */,
 				512F2F0B1F4DC06D001DA43E /* GradientLayer.m in Sources */,
 				512F2ED81F4B2BDA001DA43E /* CombineAffineTransform.m in Sources */,
+				512F2F1F1F51A011001DA43E /* Transaction.m in Sources */,
 				514404D21F4FED6300E166DA /* PlayerLayer.m in Sources */,
 				512812231F3F49500088380C /* main.m in Sources */,
 				5178CB5B1F49C89A0049FE2C /* ContentsCenter.m in Sources */,
@@ -614,6 +672,8 @@
 				514404CD1F4FEA4D00E166DA /* EAGLLayer.m in Sources */,
 				512F2F061F4DBEC5001DA43E /* TransformLayer.m in Sources */,
 				5104D5FC1F47340E00C47973 /* Contents.m in Sources */,
+				512F2F331F51B219001DA43E /* AnimationGroup.m in Sources */,
+				512F2F241F51A891001DA43E /* AnimationDelegate.m in Sources */,
 				512F2EF21F4DB15B001DA43E /* ShapeLayer.m in Sources */,
 				514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */,
 				512F2EF71F4DB25B001DA43E /* RoundCornerLayer.m in Sources */,

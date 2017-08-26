@@ -64,6 +64,14 @@
                       @"EmitterLayer",
                       @"EAGLLayer",
                       @"PlayerLayer"
+                      ],
+                    
+                    @[@"Transaction",
+                      @"AnimationDelegate",
+                      @"KeyframeAnimation",
+                      @"KeyframeAnimationWithPath",
+                      @"AnimationGroup",
+                      @"LayerRelationTime"
                       ]
                     
                     ];
