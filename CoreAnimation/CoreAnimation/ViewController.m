@@ -70,9 +70,17 @@
                       @"AnimationDelegate",
                       @"KeyframeAnimation",
                       @"KeyframeAnimationWithPath",
-                      @"AnimationGroup",
-                      @"LayerRelationTime"
-                      ]
+                      ],
+                    
+                    @[@"AnimationGroup",
+                      ],
+                    
+                    @[@"LayerRelationTime",
+                      ],
+                    
+                    @[@"MediaTimingFunction",
+                      @"KeyframeMediaTimingFunction"
+                        ],
                     
                     ];
     [self.view addSubview:self.tableView];

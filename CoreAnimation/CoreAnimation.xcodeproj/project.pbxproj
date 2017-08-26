@@ -57,6 +57,10 @@
 		512F2F341F51B219001DA43E /* AnimationGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F321F51B219001DA43E /* AnimationGroup.xib */; };
 		512F2F381F51B4E7001DA43E /* LayerRelationTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F361F51B4E7001DA43E /* LayerRelationTime.m */; };
 		512F2F391F51B4E7001DA43E /* LayerRelationTime.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */; };
+		512F2F401F51BFDF001DA43E /* MediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F3E1F51BFDF001DA43E /* MediaTimingFunction.m */; };
+		512F2F411F51BFDF001DA43E /* MediaTimingFunction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F3F1F51BFDF001DA43E /* MediaTimingFunction.xib */; };
+		512F2F451F51C24E001DA43E /* KeyframeMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F431F51C24E001DA43E /* KeyframeMediaTimingFunction.m */; };
+		512F2F461F51C24E001DA43E /* KeyframeMediaTimingFunction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */; };
 		514404B91F4FCEC600E166DA /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404B71F4FCEC600E166DA /* ScrollLayer.m */; };
 		514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404B81F4FCEC600E166DA /* ScrollLayer.xib */; };
 		514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404BC1F4FCF0900E166DA /* LayerTextLabel.m */; };
@@ -182,6 +186,12 @@
 		512F2F351F51B4E7001DA43E /* LayerRelationTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerRelationTime.h; sourceTree = "<group>"; };
 		512F2F361F51B4E7001DA43E /* LayerRelationTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerRelationTime.m; sourceTree = "<group>"; };
 		512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerRelationTime.xib; sourceTree = "<group>"; };
+		512F2F3D1F51BFDF001DA43E /* MediaTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTimingFunction.h; sourceTree = "<group>"; };
+		512F2F3E1F51BFDF001DA43E /* MediaTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTimingFunction.m; sourceTree = "<group>"; };
+		512F2F3F1F51BFDF001DA43E /* MediaTimingFunction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaTimingFunction.xib; sourceTree = "<group>"; };
+		512F2F421F51C24E001DA43E /* KeyframeMediaTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeMediaTimingFunction.h; sourceTree = "<group>"; };
+		512F2F431F51C24E001DA43E /* KeyframeMediaTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeMediaTimingFunction.m; sourceTree = "<group>"; };
+		512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyframeMediaTimingFunction.xib; sourceTree = "<group>"; };
 		514404B61F4FCEC600E166DA /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
 		514404B71F4FCEC600E166DA /* ScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
 		514404B81F4FCEC600E166DA /* ScrollLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollLayer.xib; sourceTree = "<group>"; };
@@ -274,6 +284,9 @@
 		512812151F3F49500088380C = {
 			isa = PBXGroup;
 			children = (
+				512F2F3C1F51BFBB001DA43E /* Chapter11 */,
+				512F2F3B1F51BF6A001DA43E /* Chapter10 */,
+				512F2F3A1F51BF2B001DA43E /* Chapter9 */,
 				514404D91F4FF75A00E166DA /* Chapter8 */,
 				512F2EEE1F4DB12C001DA43E /* Chapter7 */,
 				5178CB861F4B26BB0049FE2C /* Chapter6 */,
@@ -390,6 +403,39 @@
 			name = Chapter7;
 			sourceTree = "<group>";
 		};
+		512F2F3A1F51BF2B001DA43E /* Chapter9 */ = {
+			isa = PBXGroup;
+			children = (
+				512F2F301F51B219001DA43E /* AnimationGroup.h */,
+				512F2F311F51B219001DA43E /* AnimationGroup.m */,
+				512F2F321F51B219001DA43E /* AnimationGroup.xib */,
+			);
+			name = Chapter9;
+			sourceTree = "<group>";
+		};
+		512F2F3B1F51BF6A001DA43E /* Chapter10 */ = {
+			isa = PBXGroup;
+			children = (
+				512F2F351F51B4E7001DA43E /* LayerRelationTime.h */,
+				512F2F361F51B4E7001DA43E /* LayerRelationTime.m */,
+				512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */,
+			);
+			name = Chapter10;
+			sourceTree = "<group>";
+		};
+		512F2F3C1F51BFBB001DA43E /* Chapter11 */ = {
+			isa = PBXGroup;
+			children = (
+				512F2F3D1F51BFDF001DA43E /* MediaTimingFunction.h */,
+				512F2F3E1F51BFDF001DA43E /* MediaTimingFunction.m */,
+				512F2F3F1F51BFDF001DA43E /* MediaTimingFunction.xib */,
+				512F2F421F51C24E001DA43E /* KeyframeMediaTimingFunction.h */,
+				512F2F431F51C24E001DA43E /* KeyframeMediaTimingFunction.m */,
+				512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */,
+			);
+			name = Chapter11;
+			sourceTree = "<group>";
+		};
 		514404D91F4FF75A00E166DA /* Chapter8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,12 +451,6 @@
 				512F2F2B1F51ACF7001DA43E /* KeyframeAnimationWithPath.h */,
 				512F2F2C1F51ACF7001DA43E /* KeyframeAnimationWithPath.m */,
 				512F2F2D1F51ACF7001DA43E /* KeyframeAnimationWithPath.xib */,
-				512F2F301F51B219001DA43E /* AnimationGroup.h */,
-				512F2F311F51B219001DA43E /* AnimationGroup.m */,
-				512F2F321F51B219001DA43E /* AnimationGroup.xib */,
-				512F2F351F51B4E7001DA43E /* LayerRelationTime.h */,
-				512F2F361F51B4E7001DA43E /* LayerRelationTime.m */,
-				512F2F371F51B4E7001DA43E /* LayerRelationTime.xib */,
 			);
 			name = Chapter8;
 			sourceTree = "<group>";
@@ -587,6 +627,7 @@
 				5178CB711F49D59C0049FE2C /* ShadowPath.xib in Resources */,
 				514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */,
 				512F2F071F4DBEC5001DA43E /* TransformLayer.xib in Resources */,
+				512F2F461F51C24E001DA43E /* KeyframeMediaTimingFunction.xib in Resources */,
 				512F2F201F51A011001DA43E /* Transaction.xib in Resources */,
 				512F2F391F51B4E7001DA43E /* LayerRelationTime.xib in Resources */,
 				514404C41F4FE3B500E166DA /* TiledLayer.xib in Resources */,
@@ -603,6 +644,7 @@
 				512F2F341F51B219001DA43E /* AnimationGroup.xib in Resources */,
 				514404CE1F4FEA4D00E166DA /* EAGLLayer.xib in Resources */,
 				5178CB691F49D3880049FE2C /* HitTesting.xib in Resources */,
+				512F2F411F51BFDF001DA43E /* MediaTimingFunction.xib in Resources */,
 				512F2EED1F4C7228001DA43E /* SoildCube.xib in Resources */,
 				512F2ED91F4B2BDA001DA43E /* CombineAffineTransform.xib in Resources */,
 				5178CB5C1F49C89A0049FE2C /* ContentsCenter.xib in Resources */,
@@ -658,10 +700,12 @@
 				5178CB681F49D3880049FE2C /* HitTesting.m in Sources */,
 				512F2F381F51B4E7001DA43E /* LayerRelationTime.m in Sources */,
 				5178CB5F1F49CBA00049FE2C /* CustomDrawing.m in Sources */,
+				512F2F451F51C24E001DA43E /* KeyframeMediaTimingFunction.m in Sources */,
 				512812261F3F49500088380C /* AppDelegate.m in Sources */,
 				512F2F0B1F4DC06D001DA43E /* GradientLayer.m in Sources */,
 				512F2ED81F4B2BDA001DA43E /* CombineAffineTransform.m in Sources */,
 				512F2F1F1F51A011001DA43E /* Transaction.m in Sources */,
+				512F2F401F51BFDF001DA43E /* MediaTimingFunction.m in Sources */,
 				514404D21F4FED6300E166DA /* PlayerLayer.m in Sources */,
 				512812231F3F49500088380C /* main.m in Sources */,
 				5178CB5B1F49C89A0049FE2C /* ContentsCenter.m in Sources */,
