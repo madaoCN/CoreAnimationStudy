@@ -33,7 +33,8 @@
     [self animate];
 }
 
-float interpolate(float from, float to, float time)
+
+FOUNDATION_EXTERN float interpolate(float from, float to, float time)
 {
     return (to - from) * time + from;
 }

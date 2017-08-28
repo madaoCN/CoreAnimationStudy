@@ -61,6 +61,10 @@
 		512F2F411F51BFDF001DA43E /* MediaTimingFunction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F3F1F51BFDF001DA43E /* MediaTimingFunction.xib */; };
 		512F2F451F51C24E001DA43E /* KeyframeMediaTimingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F431F51C24E001DA43E /* KeyframeMediaTimingFunction.m */; };
 		512F2F461F51C24E001DA43E /* KeyframeMediaTimingFunction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */; };
+		512F2F501F5455A6001DA43E /* TimerAnimationsActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F4E1F5455A6001DA43E /* TimerAnimationsActions.m */; };
+		512F2F511F5455A6001DA43E /* TimerAnimationsActions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F4F1F5455A6001DA43E /* TimerAnimationsActions.xib */; };
+		512F2F551F54578C001DA43E /* DisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 512F2F531F54578C001DA43E /* DisplayLink.m */; };
+		512F2F561F54578C001DA43E /* DisplayLink.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512F2F541F54578C001DA43E /* DisplayLink.xib */; };
 		514404B91F4FCEC600E166DA /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404B71F4FCEC600E166DA /* ScrollLayer.m */; };
 		514404BA1F4FCEC600E166DA /* ScrollLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514404B81F4FCEC600E166DA /* ScrollLayer.xib */; };
 		514404BE1F4FCF0900E166DA /* LayerTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 514404BC1F4FCF0900E166DA /* LayerTextLabel.m */; };
@@ -192,6 +196,12 @@
 		512F2F421F51C24E001DA43E /* KeyframeMediaTimingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeMediaTimingFunction.h; sourceTree = "<group>"; };
 		512F2F431F51C24E001DA43E /* KeyframeMediaTimingFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyframeMediaTimingFunction.m; sourceTree = "<group>"; };
 		512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyframeMediaTimingFunction.xib; sourceTree = "<group>"; };
+		512F2F4D1F5455A6001DA43E /* TimerAnimationsActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerAnimationsActions.h; sourceTree = "<group>"; };
+		512F2F4E1F5455A6001DA43E /* TimerAnimationsActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerAnimationsActions.m; sourceTree = "<group>"; };
+		512F2F4F1F5455A6001DA43E /* TimerAnimationsActions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimerAnimationsActions.xib; sourceTree = "<group>"; };
+		512F2F521F54578C001DA43E /* DisplayLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayLink.h; sourceTree = "<group>"; };
+		512F2F531F54578C001DA43E /* DisplayLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayLink.m; sourceTree = "<group>"; };
+		512F2F541F54578C001DA43E /* DisplayLink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayLink.xib; sourceTree = "<group>"; };
 		514404B61F4FCEC600E166DA /* ScrollLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
 		514404B71F4FCEC600E166DA /* ScrollLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
 		514404B81F4FCEC600E166DA /* ScrollLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollLayer.xib; sourceTree = "<group>"; };
@@ -284,6 +294,7 @@
 		512812151F3F49500088380C = {
 			isa = PBXGroup;
 			children = (
+				512F2F471F5451C4001DA43E /* Chapter12 */,
 				512F2F3C1F51BFBB001DA43E /* Chapter11 */,
 				512F2F3B1F51BF6A001DA43E /* Chapter10 */,
 				512F2F3A1F51BF2B001DA43E /* Chapter9 */,
@@ -434,6 +445,19 @@
 				512F2F441F51C24E001DA43E /* KeyframeMediaTimingFunction.xib */,
 			);
 			name = Chapter11;
+			sourceTree = "<group>";
+		};
+		512F2F471F5451C4001DA43E /* Chapter12 */ = {
+			isa = PBXGroup;
+			children = (
+				512F2F4D1F5455A6001DA43E /* TimerAnimationsActions.h */,
+				512F2F4E1F5455A6001DA43E /* TimerAnimationsActions.m */,
+				512F2F4F1F5455A6001DA43E /* TimerAnimationsActions.xib */,
+				512F2F521F54578C001DA43E /* DisplayLink.h */,
+				512F2F531F54578C001DA43E /* DisplayLink.m */,
+				512F2F541F54578C001DA43E /* DisplayLink.xib */,
+			);
+			name = Chapter12;
 			sourceTree = "<group>";
 		};
 		514404D91F4FF75A00E166DA /* Chapter8 */ = {
@@ -636,9 +660,11 @@
 				514404BF1F4FCF0900E166DA /* LayerTextLabel.xib in Resources */,
 				512F2EDE1F4B2CC0001DA43E /* ThreeDAffineTranform.xib in Resources */,
 				5178CB851F4B1E680049FE2C /* GroupOpacity.xib in Resources */,
+				512F2F561F54578C001DA43E /* DisplayLink.xib in Resources */,
 				514404D31F4FED6300E166DA /* PlayerLayer.xib in Resources */,
 				512F2EE81F4C6F67001DA43E /* YAxisRecoverRoate.xib in Resources */,
 				514404C91F4FE60000E166DA /* EmitterLayer.xib in Resources */,
+				512F2F511F5455A6001DA43E /* TimerAnimationsActions.xib in Resources */,
 				5128122C1F3F49500088380C /* Main.storyboard in Resources */,
 				5104D6041F4737D200C47973 /* ContentsRect.xib in Resources */,
 				512F2F341F51B219001DA43E /* AnimationGroup.xib in Resources */,
@@ -691,6 +717,8 @@
 				512F2F101F4DC7A1001DA43E /* ReplicatorLayer.m in Sources */,
 				512F2F2E1F51ACF7001DA43E /* KeyframeAnimationWithPath.m in Sources */,
 				5104D5F81F47317100C47973 /* LayerTest.m in Sources */,
+				512F2F501F5455A6001DA43E /* TimerAnimationsActions.m in Sources */,
+				512F2F551F54578C001DA43E /* DisplayLink.m in Sources */,
 				5178CB841F4B1E680049FE2C /* GroupOpacity.m in Sources */,
 				512F2F011F4DB4D9001DA43E /* RichTextLayer.m in Sources */,
 				5178CB751F49DA890049FE2C /* MaskLayer.m in Sources */,

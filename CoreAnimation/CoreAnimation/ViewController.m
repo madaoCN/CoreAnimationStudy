@@ -79,8 +79,12 @@
                       ],
                     
                     @[@"MediaTimingFunction",
-                      @"KeyframeMediaTimingFunction"
+                      @"KeyframeMediaTimingFunction",
                         ],
+                    
+                    @[@"TimerAnimationsActions",
+                      @"DisplayLink"
+                    ]
                     
                     ];
     [self.view addSubview:self.tableView];
